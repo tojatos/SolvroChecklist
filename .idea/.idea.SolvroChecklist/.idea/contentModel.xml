@@ -5,7 +5,6 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Controllers" t="Include">
         <e p="ChecklistController.cs" t="Include" />
-        <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Checklist.cs" t="Include" />

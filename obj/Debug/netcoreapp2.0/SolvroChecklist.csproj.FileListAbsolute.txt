@@ -18,3 +18,5 @@
 /home/tojatos/RiderProjects/SolvroCheclist/obj/Debug/netcoreapp2.0/SolvroChecklist.AssemblyInfo.cs
 /home/tojatos/RiderProjects/SolvroCheclist/obj/Debug/netcoreapp2.0/SolvroChecklist.dll
 /home/tojatos/RiderProjects/SolvroCheclist/obj/Debug/netcoreapp2.0/SolvroChecklist.pdb
+/home/tojatos/RiderProjects/SolvroCheclist/bin/Debug/netcoreapp2.0/SolvroChecklist.xml
+/home/tojatos/RiderProjects/SolvroCheclist/obj/Debug/netcoreapp2.0/SolvroChecklist.xml
