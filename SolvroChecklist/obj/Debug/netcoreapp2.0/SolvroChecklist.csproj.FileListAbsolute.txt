@@ -1,0 +1,10 @@
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/bin/Debug/netcoreapp2.0/SolvroChecklist.deps.json
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/bin/Debug/netcoreapp2.0/SolvroChecklist.runtimeconfig.json
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/bin/Debug/netcoreapp2.0/SolvroChecklist.runtimeconfig.dev.json
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/bin/Debug/netcoreapp2.0/SolvroChecklist.dll
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/bin/Debug/netcoreapp2.0/SolvroChecklist.pdb
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/obj/Debug/netcoreapp2.0/SolvroChecklist.csproj.CoreCompileInputs.cache
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/obj/Debug/netcoreapp2.0/SolvroChecklist.AssemblyInfoInputs.cache
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/obj/Debug/netcoreapp2.0/SolvroChecklist.AssemblyInfo.cs
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/obj/Debug/netcoreapp2.0/SolvroChecklist.dll
+/home/tojatos/RiderProjects/SolvroCheclist/SolvroChecklist/obj/Debug/netcoreapp2.0/SolvroChecklist.pdb
