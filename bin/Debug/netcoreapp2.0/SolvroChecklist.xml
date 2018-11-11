@@ -17,5 +17,12 @@
             <response code="201">New checklist inserted.</response>
             <response code="409">Checklist of given name already exists.</response>
         </member>
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.Delete(System.String)">
+            <summary>
+            Remove checklist of given name.
+            </summary>
+            <response code="200">OK.</response>
+            <response code="404">Checklist of given ID does not exist.</response>
+        </member>
     </members>
 </doc>

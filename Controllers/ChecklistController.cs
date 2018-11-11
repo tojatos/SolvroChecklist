@@ -51,5 +51,25 @@ namespace SolvroChecklist.Controllers
 
             return StatusCode(201);
         }
+
+        /// <summary>
+        /// Remove checklist of given name.
+        /// </summary>
+        /// <response code="200">OK.</response>
+        /// <response code="404">Checklist of given ID does not exist.</response>
+//        [Route("lists/{name}")]
+        [HttpDelete("lists/{name}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
+        public IActionResult Delete(string name)
+        {
+            var checklist = _context.Checklists.FirstOrDefault(c => c.Name == name);
+            if (checklist == null) return NotFound();
+
+            _context.Checklists.Remove(checklist);
+            _context.SaveChanges();
+            return Ok();
+
+        }
     }
 }

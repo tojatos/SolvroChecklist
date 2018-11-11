@@ -17,7 +17,6 @@
             <state relative-caret-position="72">
               <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
-                <marker date="1541807122321" expanded="true" signature="32:192" ph="{...}" />
                 <marker date="1541807122321" expanded="true" signature="56:190" ph="{...}" />
               </folding>
             </state>
@@ -31,7 +30,6 @@
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <marker date="1541864616215" expanded="true" signature="6:78" ph="..." />
-                <marker date="1541864616215" expanded="true" signature="112:298" ph="{...}" />
                 <marker date="1541864616215" expanded="true" signature="141:296" ph="{...}" />
               </folding>
             </state>
@@ -41,11 +39,10 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="180">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <marker date="1541864831580" expanded="true" signature="6:280" ph="..." />
-                <marker date="1541864831580" expanded="true" signature="307:2035" ph="{...}" />
                 <marker date="1541864831580" expanded="true" signature="334:2033" ph="{...}" />
                 <marker date="1541864831580" expanded="true" signature="508:1401" ph="{...}" />
                 <marker date="1541864831580" expanded="true" signature="686:1388" ph="{...}" />
@@ -66,7 +63,6 @@
               <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <marker date="1541807002892" expanded="false" signature="6:255" ph="..." />
-                <marker date="1541807002892" expanded="true" signature="282:603" ph="{...}" />
                 <marker date="1541807002892" expanded="true" signature="309:601" ph="{...}" />
                 <marker date="1541807002892" expanded="false" signature="362:420" ph="{...}" />
               </folding>
@@ -77,28 +73,21 @@
       <file leaf-file-name="ChecklistController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="41" column="86" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+            <state relative-caret-position="224">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
               <folding>
-                <marker date="1541865735950" expanded="false" signature="6:132" ph="..." />
-                <marker date="1541865735950" expanded="true" signature="171:1734" ph="{...}" />
-                <marker date="1541865735950" expanded="true" signature="259:1732" ph="{...}" />
-                <marker date="1541865735950" expanded="true" signature="379:431" ph="{...}" />
-                <marker date="1541865735950" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
-                <marker date="1541865735950" expanded="true" signature="723:812" ph="{...}" />
-                <marker date="1541865735950" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
-                <marker date="1541865735950" expanded="true" signature="1258:1726" ph="{...}" />
-                <marker date="1541865735950" expanded="true" signature="1518:1641" ph="{...}" />
+                <marker date="1541974154358" expanded="false" signature="6:132" ph="..." />
+                <marker date="1541974154358" expanded="true" signature="171:2419" ph="{...}" />
+                <marker date="1541974154358" expanded="true" signature="259:2417" ph="{...}" />
+                <marker date="1541974154358" expanded="false" signature="379:431" ph="{...}" />
+                <marker date="1541974154358" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
+                <marker date="1541974154358" expanded="false" signature="723:812" ph="{...}" />
+                <marker date="1541974154358" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
+                <marker date="1541974154358" expanded="true" signature="1258:1726" ph="{...}" />
+                <marker date="1541974154358" expanded="true" signature="1518:1641" ph="{...}" />
+                <marker date="1541974154358" expanded="true" signature="1736:1946" ph="/// Remove checklist of given name. ... " />
+                <marker date="1541974154358" expanded="true" signature="2138:2411" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolvroChecklist.csproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SolvroChecklist.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,13 +95,13 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C0F0DF4-CFF4-4FB5-9387-EF2D2A876DCE/5f/2223ae66/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Checklist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Checklist.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/ChecklistContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C0F0DF4-CFF4-4FB5-9387-EF2D2A876DCE/43/863a365d/CommonlyUsedGenericInstantiations.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -136,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -155,18 +143,13 @@
               <item name="SolvroChecklist" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SolvroChecklist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SolvroChecklist" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,21 +222,21 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="NuGet" order="11" weight="0.32941177" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.23454158" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.23720682" />
       <window_info anchor="bottom" id="Statistic" order="15" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.32941177" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32969433" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
@@ -261,10 +244,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Models/Item.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="72">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <marker date="1541807122321" expanded="true" signature="32:192" ph="{...}" />
             <marker date="1541807122321" expanded="true" signature="56:190" ph="{...}" />
           </folding>
         </state>
@@ -272,32 +254,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/Checklist.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <marker date="1541864616215" expanded="true" signature="6:78" ph="..." />
-            <marker date="1541864616215" expanded="true" signature="112:298" ph="{...}" />
             <marker date="1541864616215" expanded="true" signature="141:296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/ChecklistContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541807521300" expanded="true" signature="118:301" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <marker date="1541864831580" expanded="true" signature="6:280" ph="..." />
-            <marker date="1541864831580" expanded="true" signature="307:2035" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="334:2033" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="508:1401" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="686:1388" ph="{...}" />
@@ -316,7 +287,87 @@
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <marker date="1541807002892" expanded="false" signature="6:255" ph="..." />
-            <marker date="1541807002892" expanded="true" signature="282:603" ph="{...}" />
+            <marker date="1541807002892" expanded="true" signature="309:601" ph="{...}" />
+            <marker date="1541807002892" expanded="false" signature="362:420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolvroChecklist.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="86" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+          <folding>
+            <marker date="1541974154358" expanded="false" signature="6:132" ph="..." />
+            <marker date="1541974154358" expanded="true" signature="171:2419" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="259:2417" ph="{...}" />
+            <marker date="1541974154358" expanded="false" signature="379:431" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1541974154358" expanded="false" signature="723:812" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1541974154358" expanded="true" signature="1258:1726" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1518:1641" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1736:1946" ph="/// Remove checklist of given name. ... " />
+            <marker date="1541974154358" expanded="true" signature="2138:2411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <marker date="1541807122321" expanded="true" signature="56:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Checklist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1541864616215" expanded="true" signature="6:78" ph="..." />
+            <marker date="1541864616215" expanded="true" signature="141:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/ChecklistContext.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <marker date="1541864831580" expanded="true" signature="6:280" ph="..." />
+            <marker date="1541864831580" expanded="true" signature="334:2033" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="508:1401" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="686:1388" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="761:1152" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="989:1133" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="1589:2027" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="1636:1713" ph="{...}" />
+            <marker date="1541864831580" expanded="true" signature="1826:1976" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1541807002892" expanded="false" signature="6:255" ph="..." />
             <marker date="1541807002892" expanded="true" signature="309:601" ph="{...}" />
             <marker date="1541807002892" expanded="false" signature="362:420" ph="{...}" />
           </folding>
@@ -328,27 +379,23 @@
         <state relative-caret-position="288">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1541865735950" expanded="false" signature="6:132" ph="..." />
-            <marker date="1541865735950" expanded="true" signature="171:1734" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="259:1732" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="379:431" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1541865735950" expanded="true" signature="723:812" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1541865735950" expanded="true" signature="1258:1726" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="1518:1641" ph="{...}" />
+            <marker date="1541974154358" expanded="false" signature="6:132" ph="..." />
+            <marker date="1541974154358" expanded="true" signature="171:2419" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="259:2417" ph="{...}" />
+            <marker date="1541974154358" expanded="false" signature="379:431" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1541974154358" expanded="false" signature="723:812" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1541974154358" expanded="true" signature="1258:1726" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1518:1641" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1736:1946" ph="/// Remove checklist of given name. ... " />
+            <marker date="1541974154358" expanded="true" signature="2138:2411" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/ChecklistContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1541807521300" expanded="true" signature="118:301" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C0F0DF4-CFF4-4FB5-9387-EF2D2A876DCE/43/863a365d/CommonlyUsedGenericInstantiations.cs">
@@ -368,20 +415,12 @@
     <entry file="file://$PROJECT_DIR$/SolvroChecklist.sln">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SolvroChecklist.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="180">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <marker date="1541864831580" expanded="true" signature="6:280" ph="..." />
-            <marker date="1541864831580" expanded="true" signature="307:2035" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="334:2033" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="508:1401" ph="{...}" />
             <marker date="1541864831580" expanded="true" signature="686:1388" ph="{...}" />
@@ -400,7 +439,6 @@
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <marker date="1541807002892" expanded="false" signature="6:255" ph="..." />
-            <marker date="1541807002892" expanded="true" signature="282:603" ph="{...}" />
             <marker date="1541807002892" expanded="true" signature="309:601" ph="{...}" />
             <marker date="1541807002892" expanded="false" signature="362:420" ph="{...}" />
           </folding>
@@ -412,7 +450,6 @@
         <state relative-caret-position="72">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <marker date="1541807122321" expanded="true" signature="32:192" ph="{...}" />
             <marker date="1541807122321" expanded="true" signature="56:190" ph="{...}" />
           </folding>
         </state>
@@ -424,26 +461,34 @@
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <marker date="1541864616215" expanded="true" signature="6:78" ph="..." />
-            <marker date="1541864616215" expanded="true" signature="112:298" ph="{...}" />
             <marker date="1541864616215" expanded="true" signature="141:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SolvroChecklist.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="86" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+        <state relative-caret-position="224">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           <folding>
-            <marker date="1541865735950" expanded="false" signature="6:132" ph="..." />
-            <marker date="1541865735950" expanded="true" signature="171:1734" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="259:1732" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="379:431" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1541865735950" expanded="true" signature="723:812" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1541865735950" expanded="true" signature="1258:1726" ph="{...}" />
-            <marker date="1541865735950" expanded="true" signature="1518:1641" ph="{...}" />
+            <marker date="1541974154358" expanded="false" signature="6:132" ph="..." />
+            <marker date="1541974154358" expanded="true" signature="171:2419" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="259:2417" ph="{...}" />
+            <marker date="1541974154358" expanded="false" signature="379:431" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="449:601" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1541974154358" expanded="false" signature="723:812" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="830:1073" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1541974154358" expanded="true" signature="1258:1726" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1518:1641" ph="{...}" />
+            <marker date="1541974154358" expanded="true" signature="1736:1946" ph="/// Remove checklist of given name. ... " />
+            <marker date="1541974154358" expanded="true" signature="2138:2411" ph="{...}" />
           </folding>
         </state>
       </provider>
