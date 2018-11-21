@@ -90,24 +90,27 @@
       <file leaf-file-name="ChecklistController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+            <state relative-caret-position="178">
+              <caret line="109" column="75" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="75" />
               <folding>
-                <marker date="1542761722393" expanded="false" signature="6:186" ph="..." />
-                <marker date="1542761722393" expanded="true" signature="225:3817" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="313:3815" ph="{...}" />
-                <marker date="1542761722393" expanded="false" signature="433:485" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
-                <marker date="1542761722393" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
-                <marker date="1542761722393" expanded="true" signature="1277:1703" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="1537:1618" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
-                <marker date="1542761722393" expanded="false" signature="2142:2430" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="2440:2599" ph="/// Returns list of checklist items.  ... " />
-                <marker date="1542761722393" expanded="true" signature="2934:3019" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="3029:3217" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
-                <marker date="1542761722393" expanded="true" signature="3402:3809" ph="{...}" />
-                <marker date="1542761722393" expanded="true" signature="3548:3704" ph="{...}" />
+                <marker date="1542762546489" expanded="false" signature="6:186" ph="..." />
+                <marker date="1542762546489" expanded="true" signature="225:4513" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="313:4511" ph="{...}" />
+                <marker date="1542762546489" expanded="false" signature="433:485" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
+                <marker date="1542762546489" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
+                <marker date="1542762546489" expanded="true" signature="1277:1703" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="1537:1618" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
+                <marker date="1542762546489" expanded="false" signature="2124:2403" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="2413:2572" ph="/// Returns list of checklist items.  ... " />
+                <marker date="1542762546489" expanded="true" signature="2880:2965" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="2975:3163" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+                <marker date="1542762546489" expanded="true" signature="3330:3728" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="3476:3623" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="3746:3934" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+                <marker date="1542762546489" expanded="true" signature="4107:4505" ph="{...}" />
+                <marker date="1542762546489" expanded="true" signature="4253:4400" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -353,21 +356,24 @@
         <state relative-caret-position="900">
           <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           <folding>
-            <marker date="1542761722393" expanded="false" signature="6:186" ph="..." />
-            <marker date="1542761722393" expanded="true" signature="225:3817" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="313:3815" ph="{...}" />
-            <marker date="1542761722393" expanded="false" signature="433:485" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1542761722393" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1542761722393" expanded="true" signature="1277:1703" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1537:1618" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
-            <marker date="1542761722393" expanded="false" signature="2142:2430" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="2440:2599" ph="/// Returns list of checklist items.  ... " />
-            <marker date="1542761722393" expanded="true" signature="2934:3019" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3029:3217" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
-            <marker date="1542761722393" expanded="true" signature="3402:3809" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3548:3704" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="6:186" ph="..." />
+            <marker date="1542762546489" expanded="true" signature="225:4513" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="313:4511" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="433:485" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1542762546489" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1542762546489" expanded="true" signature="1277:1703" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1537:1618" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
+            <marker date="1542762546489" expanded="false" signature="2124:2403" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2413:2572" ph="/// Returns list of checklist items.  ... " />
+            <marker date="1542762546489" expanded="true" signature="2880:2965" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2975:3163" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="3330:3728" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3476:3623" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3746:3934" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="4107:4505" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="4253:4400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -439,21 +445,24 @@
         <state relative-caret-position="666">
           <caret line="41" column="86" lean-forward="true" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
           <folding>
-            <marker date="1542761722393" expanded="false" signature="6:186" ph="..." />
-            <marker date="1542761722393" expanded="true" signature="225:3817" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="313:3815" ph="{...}" />
-            <marker date="1542761722393" expanded="false" signature="433:485" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1542761722393" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1542761722393" expanded="true" signature="1277:1703" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1537:1618" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
-            <marker date="1542761722393" expanded="false" signature="2142:2430" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="2440:2599" ph="/// Returns list of checklist items.  ... " />
-            <marker date="1542761722393" expanded="true" signature="2934:3019" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3029:3217" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
-            <marker date="1542761722393" expanded="true" signature="3402:3809" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3548:3704" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="6:186" ph="..." />
+            <marker date="1542762546489" expanded="true" signature="225:4513" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="313:4511" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="433:485" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1542762546489" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1542762546489" expanded="true" signature="1277:1703" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1537:1618" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
+            <marker date="1542762546489" expanded="false" signature="2124:2403" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2413:2572" ph="/// Returns list of checklist items.  ... " />
+            <marker date="1542762546489" expanded="true" signature="2880:2965" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2975:3163" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="3330:3728" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3476:3623" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3746:3934" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="4107:4505" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="4253:4400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -521,21 +530,24 @@
         <state relative-caret-position="288">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1542761722393" expanded="false" signature="6:186" ph="..." />
-            <marker date="1542761722393" expanded="true" signature="225:3817" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="313:3815" ph="{...}" />
-            <marker date="1542761722393" expanded="false" signature="433:485" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1542761722393" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1542761722393" expanded="true" signature="1277:1703" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1537:1618" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
-            <marker date="1542761722393" expanded="false" signature="2142:2430" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="2440:2599" ph="/// Returns list of checklist items.  ... " />
-            <marker date="1542761722393" expanded="true" signature="2934:3019" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3029:3217" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
-            <marker date="1542761722393" expanded="true" signature="3402:3809" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3548:3704" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="6:186" ph="..." />
+            <marker date="1542762546489" expanded="true" signature="225:4513" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="313:4511" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="433:485" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1542762546489" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1542762546489" expanded="true" signature="1277:1703" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1537:1618" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
+            <marker date="1542762546489" expanded="false" signature="2124:2403" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2413:2572" ph="/// Returns list of checklist items.  ... " />
+            <marker date="1542762546489" expanded="true" signature="2880:2965" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2975:3163" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="3330:3728" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3476:3623" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3746:3934" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="4107:4505" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="4253:4400" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -633,24 +645,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/ChecklistController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        <state relative-caret-position="178">
+          <caret line="109" column="75" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="75" />
           <folding>
-            <marker date="1542761722393" expanded="false" signature="6:186" ph="..." />
-            <marker date="1542761722393" expanded="true" signature="225:3817" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="313:3815" ph="{...}" />
-            <marker date="1542761722393" expanded="false" signature="433:485" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
-            <marker date="1542761722393" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
-            <marker date="1542761722393" expanded="true" signature="1277:1703" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1537:1618" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
-            <marker date="1542761722393" expanded="false" signature="2142:2430" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="2440:2599" ph="/// Returns list of checklist items.  ... " />
-            <marker date="1542761722393" expanded="true" signature="2934:3019" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3029:3217" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
-            <marker date="1542761722393" expanded="true" signature="3402:3809" ph="{...}" />
-            <marker date="1542761722393" expanded="true" signature="3548:3704" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="6:186" ph="..." />
+            <marker date="1542762546489" expanded="true" signature="225:4513" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="313:4511" ph="{...}" />
+            <marker date="1542762546489" expanded="false" signature="433:485" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="503:655" ph="/// Returns list of checklists' names.  ... " />
+            <marker date="1542762546489" expanded="true" signature="840:1083" ph="/// Inserts new checklist with a unique name.  ... " />
+            <marker date="1542762546489" expanded="true" signature="1277:1703" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1537:1618" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="1713:1923" ph="/// Remove checklist of given name. ... " />
+            <marker date="1542762546489" expanded="false" signature="2124:2403" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2413:2572" ph="/// Returns list of checklist items.  ... " />
+            <marker date="1542762546489" expanded="true" signature="2880:2965" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="2975:3163" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="3330:3728" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3476:3623" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="3746:3934" ph="/// Inserts new unchecked item to checklist and gives it unique ID. ... " />
+            <marker date="1542762546489" expanded="true" signature="4107:4505" ph="{...}" />
+            <marker date="1542762546489" expanded="true" signature="4253:4400" ph="{...}" />
           </folding>
         </state>
       </provider>

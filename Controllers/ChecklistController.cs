@@ -55,12 +55,12 @@ namespace SolvroChecklist.Controllers
         /// <response code="200">OK.</response>
         /// <response code="404">Checklist of given ID does not exist.</response>
 //        [Route("lists/{name}")]
-        [HttpDelete("lists/{checklistName}")]
+        [HttpDelete("lists/{name}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
-        public IActionResult DeleteChecklist(string checklistName)
+        public IActionResult DeleteChecklist(string name)
         {
-            Checklist checklist = _context.Checklists.FirstOrDefault(c => c.Name == checklistName);
+            Checklist checklist = _context.Checklists.FirstOrDefault(c => c.Name == name);
             if (checklist == null) return NotFound();
 
             _context.Checklists.Remove(checklist);
@@ -73,9 +73,9 @@ namespace SolvroChecklist.Controllers
         /// Returns list of checklist items. 
         /// </summary>
         /// <response code="200">JSON array of checklist's items.</response>
-        [HttpGet("lists/{checklistName}/items")]
+        [HttpGet("lists/{name}/items")]
         [ProducesResponseType(200)]
-        public List<CItem> GetChecklistItems(string checklistName) => _context.Items.ToList().Where(i => i.ChecklistName == checklistName)
+        public List<CItem> GetChecklistItems(string name) => _context.Items.ToList().Where(i => i.ChecklistName == name)
             .Select(i => new CItem{Name = i.Name, Checked = i.Checked}).ToList();
 
         public struct CItem
@@ -88,21 +88,40 @@ namespace SolvroChecklist.Controllers
         /// Inserts new unchecked item to checklist and gives it unique ID.
         /// </summary>
         /// <response code="201">Returns ID of newly added item.</response>
-        [HttpPost("lists/{checklistName}/items")]
+        [HttpPost("lists/{name}/items")]
         [ProducesResponseType(201)]
-        public IActionResult CreateChecklistItem([FromBody] string itemName, string checklistName)
+        public IActionResult CreateChecklistItem([FromBody] string itemName, string name)
         {
             long newId = !_context.Items.Any() ? 1 : _context.Items.Last().Id + 1;
             _context.Items.Add(new Item
             {
                 Id = newId,
-                ChecklistName = checklistName,
+                ChecklistName = name,
                 Name = itemName,
                 Checked = false,
             });
             _context.SaveChanges();
 
             return StatusCode(201, newId);
+            
+        }
+        
+        /// <summary>
+        /// Check or uncheck checklist's item.
+        /// </summary>
+        /// <response code="202">OK.</response>
+        /// <response code="404">Item of given ID does not exist.</response>
+        [HttpPatch("lists/{name}/items/{id}")]
+        [ProducesResponseType(202)]
+        [ProducesResponseType(404)]
+        public IActionResult SetItemCheck([FromBody] bool Checked, int id, string name)
+        {
+            if (!_context.Items.Any(i => i.Id == id && i.Name == name)) return NotFound();
+            
+            _context.Items.First(i => i.Id == id && i.Name == name).Checked = Checked;
+            _context.SaveChanges();
+
+            return StatusCode(202);
             
         }
     }
