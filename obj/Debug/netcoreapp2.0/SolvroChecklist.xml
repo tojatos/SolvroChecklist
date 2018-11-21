@@ -10,19 +10,31 @@
             </summary>
             <response code="200">New checklist inserted.</response>
         </member>
-        <member name="M:SolvroChecklist.Controllers.ChecklistController.Create(System.String)">
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.CreateChecklist(System.String)">
             <summary>
             Inserts new checklist with a unique name. 
             </summary>
             <response code="201">New checklist inserted.</response>
             <response code="409">Checklist of given name already exists.</response>
         </member>
-        <member name="M:SolvroChecklist.Controllers.ChecklistController.Delete(System.String)">
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.DeleteChecklist(System.String)">
             <summary>
             Remove checklist of given name.
             </summary>
             <response code="200">OK.</response>
             <response code="404">Checklist of given ID does not exist.</response>
+        </member>
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.GetChecklistItems(System.String)">
+            <summary>
+            Returns list of checklist items. 
+            </summary>
+            <response code="200">JSON array of checklist's items.</response>
+        </member>
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.CreateChecklistItem(System.String,System.String)">
+            <summary>
+            Inserts new unchecked item to checklist and gives it unique ID.
+            </summary>
+            <response code="201">Returns ID of newly added item.</response>
         </member>
     </members>
 </doc>
