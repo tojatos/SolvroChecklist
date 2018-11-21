@@ -36,5 +36,19 @@
             </summary>
             <response code="201">Returns ID of newly added item.</response>
         </member>
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.SetItemCheck(System.Boolean,System.Int32,System.String)">
+            <summary>
+            Check or uncheck checklist's item.
+            </summary>
+            <response code="202">OK.</response>
+            <response code="404">Item of given ID does not exist.</response>
+        </member>
+        <member name="M:SolvroChecklist.Controllers.ChecklistController.DeleteItem(System.Int32,System.String)">
+            <summary>
+            Remove checklist's item.
+            </summary>
+            <response code="200">OK.</response>
+            <response code="404">Item of given ID does not exist in checklist.</response>
+        </member>
     </members>
 </doc>

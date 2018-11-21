@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 using SolvroChecklist.Models;
 
 namespace SolvroChecklist.Controllers
@@ -116,13 +114,31 @@ namespace SolvroChecklist.Controllers
         [ProducesResponseType(404)]
         public IActionResult SetItemCheck([FromBody] bool Checked, int id, string name)
         {
-            if (!_context.Items.Any(i => i.Id == id && i.Name == name)) return NotFound();
+            if (!_context.Items.Any(i => i.Id == id && i.ChecklistName == name)) return NotFound();
             
-            _context.Items.First(i => i.Id == id && i.Name == name).Checked = Checked;
+            _context.Items.First(i => i.Id == id && i.ChecklistName == name).Checked = Checked;
             _context.SaveChanges();
 
             return StatusCode(202);
-            
+        }
+        
+        /// <summary>
+        /// Remove checklist's item.
+        /// </summary>
+        /// <response code="200">OK.</response>
+        /// <response code="404">Item of given ID does not exist in checklist.</response>
+        [HttpDelete("lists/{name}/items/{id}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteItem(int id, string name)
+        {
+            Item itemToRemove = _context.Items.FirstOrDefault(i => i.Id == id && i.ChecklistName == name);
+            if (itemToRemove == null) return NotFound();
+
+            _context.Items.Remove(itemToRemove);
+            _context.SaveChanges();
+
+            return StatusCode(202);
         }
     }
 }
