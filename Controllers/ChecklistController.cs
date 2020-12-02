@@ -5,7 +5,7 @@ using SolvroChecklist.Models;
 
 namespace SolvroChecklist.Controllers
 {
-    [Produces("application/json")] 
+    [Produces("application/json")]
     public class ChecklistController : Controller
     {
         private readonly ChecklistContext _context;
@@ -14,9 +14,9 @@ namespace SolvroChecklist.Controllers
         {
             _context = context;
         }
-        
+
         /// <summary>
-        /// Returns list of checklists' names. 
+        /// Returns list of checklists' names.
         /// </summary>
         /// <response code="200">New checklist inserted.</response>
         [Route("lists")]
@@ -25,7 +25,7 @@ namespace SolvroChecklist.Controllers
         public List<string> GetListNames() => _context.Checklists.Select(c => c.Name).ToList();
 
         /// <summary>
-        /// Inserts new checklist with a unique name. 
+        /// Inserts new checklist with a unique name.
         /// </summary>
         /// <response code="201">New checklist inserted.</response>
         /// <response code="409">Checklist of given name already exists.</response>
@@ -68,7 +68,7 @@ namespace SolvroChecklist.Controllers
         }
 
         /// <summary>
-        /// Returns list of checklist items. 
+        /// Returns list of checklist items.
         /// </summary>
         /// <response code="200">JSON array of checklist's items.</response>
         [HttpGet("lists/{name}/items")]
@@ -101,9 +101,9 @@ namespace SolvroChecklist.Controllers
             _context.SaveChanges();
 
             return StatusCode(201, newId);
-            
+
         }
-        
+
         /// <summary>
         /// Check or uncheck checklist's item.
         /// </summary>
@@ -115,13 +115,13 @@ namespace SolvroChecklist.Controllers
         public IActionResult SetItemCheck([FromBody] bool Checked, int id, string name)
         {
             if (!_context.Items.Any(i => i.Id == id && i.ChecklistName == name)) return NotFound();
-            
+
             _context.Items.First(i => i.Id == id && i.ChecklistName == name).Checked = Checked;
             _context.SaveChanges();
 
             return StatusCode(202);
         }
-        
+
         /// <summary>
         /// Remove checklist's item.
         /// </summary>

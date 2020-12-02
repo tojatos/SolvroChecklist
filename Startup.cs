@@ -27,13 +27,13 @@ namespace SolvroChecklist
                     Contact = new Contact
                     {
                         Name = "Krzysztof Ruczkowski",
-                        Email = "kontakt@krzysztofruczkowski.pl",
+                        Email = "tojatos@gmail.com",
                     },
-                }); 
+                });
                 string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
-            }); 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +45,7 @@ namespace SolvroChecklist
             }
 
             app.UseStaticFiles();
-            
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
@@ -53,7 +53,7 @@ namespace SolvroChecklist
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
                 c.RoutePrefix = string.Empty;
             });
-            
+
             app.UseMvc();
         }
     }
